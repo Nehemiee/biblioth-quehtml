@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cursus</title>
+
+</head>
+<body>
+    <body>
+    <div class="main-container d-flex">
+        <div class="sidebar " id="side_nav">
+            <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-betwen">
+                <h1 class="fs-4"><span class="bg-white text-dark rounder shadow px-2 ">ESI</span><span class="text-white">SALAMA</span></h1>
+                <bouton class="btn d-md-none d-block close-btn px-1 py-0 text-white"><i class="fa-solid fa-bars-staggered"></i></bouton>
+            </div>
+            <ul class="list-unstyled px-2">
+                <li class="active"><a href="#" class="text-decoration-none"><i class="fa-sharp fa-solid fa-house py-4 pe-3"></i>Accueil</a></li>
+                <li class="dropdown"><a href="#" class="text-decoration-none dropdown-toggle dropdown-toggle-split  "id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><i class="fa-solid fa-graduation-cap py-4 pe-3"></i>Education</a>
+                    <ul class="dropdown-menu me-4 bg-dark " aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Horaire de cours</a></li>
+                            <li><a class="dropdown-item" href="excelence.html">Centre d'excelence</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="ibrairies.html">Bibliotheque</a></li>
+                            <li><a class="dropdown-item" href="#">Horaire publication de resultats</a></li>
+                            <li><a class="dropdown-item" href="#">Recours</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">E-learning</a></li>
+                            <li><a class="dropdown-item" href="#">Suivie TFC</a></li>
+                      </ul>
+                </li>
+                <li class=""><a href="actualite.html" class="text-decoration-none"><i class="fa-solid fa-rectangle-ad py-4 pe-3"></i>Actualites</a></li>
+                <li class=""><a href="apropsesis.html" class="text-decoration-none"><i class="fa-solid fa-address-card py-4 pe-3"></i>A propos d'esis</a></li>
+            </ul>
+            <hr class="hr-color">
+        </div>
+        
+        <div class="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-betwen d-md-none d-block">
+                        <a class="navbar-brand fs-4" href="#"><span class="bg-white text-dark rounder shadow px-2 ">ESI</span><span class="text-dark">SALAMA</span></a>
+                        <button class="btn px-1 py-0 open-btn"><i class="fa-sharp fa-solid fa-bars-staggered"></i></button>
+                    </div> 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      
+                      <li class="nav-item">
+                        <a class="nav-link text-white active" href="#"  aria-current="page">Profil</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>  
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/img/esis.jpg" class="d-block w-100" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/img/banner_reseaux.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/banner_genie_log.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+             
+              <section>
+                <div class="container" data-aos="fade-up">
+                  <div class="row">
+                    <div class="col-lg-12 text-center mb-5">
+                      <h1 class="page-title"></h1>
+                    </div>
+                  </div>
+              </div>
+          </section>
+
+                    <div class="container-fluid cadre-principal"> 
+                    <div class="container" id="cadre-a-propos"> 
+                      <div class="row">
+                       <div id='apropos-onglets'> <!-- Nav tabs -->
+                        <nav>
+                        <ul class="nav nav-tabs" role="tablist"> 
+                          <li role="presentation" class=" active"> <a href="apropsesis.html" role="tab" data-toggle="tab">Présentation</a> 
+                          </li> <br>
+                          <li role="presentation" class=""> <a href="cursus.html" role="tab" data-toggle="tab">Cursus</a> </li>  <br>
+                          <li role="presentation" class=""> <a href="admission.html" role="tab" data-toggle="tab">Admission</a> </li> <br>
+                           <li role="presentation" class=""> <a href="contact.html" role="tab" data-toggle="tab">Contact</a> </li>  <br></ul></nav><div class="tab-content">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+    <main>
+    <!-- Onglet Cursus --> <div role="tabpanel" class="tab-pane" id="tab-cursus"><h3 class="bg-success well-sm">Cursus académique</h3> <p> L’<abbr title="Ecole Supérieure d'Informatique SALAMA">ESIS</abbr> organise <em>2 cycles</em> de formations selon le système <abbr title="Licence-Master-Doctorat">LMD</abbr> : le <strong>Graduat</strong> et le <strong>Master</strong>. </p> <p> Le graduat forme des ingénieurs techniciens de niveau <em>BAC+3</em> dont le cycle de formation comprend <em>l’année préparatoire et trois années de graduat</em>. Le cycle de master des ingénieurs de niveau <em>BAC+5</em> pour deux années de formation : <em>master 1 et master 2</em>. </p> <p> <strong><span class="text-muted">Le cycle de graduat</span></strong> se structure sur <em>5 filières</em> regroupées en <em>3 grandes familles</em> : </p> <ul class="list-group"> <li class="list-group-item">- Génie Logiciel avec 2 options : Systèmes Informatiques et Gestion informatique</li> <li class="list-group-item">- Réseaux avec 2 options : Administration des Systèmes et Télécommunications</li> <li class="list-group-item">- Design et Multimédia</li> </ul> <p><strong><span class="text-muted">Au niveau du Master</span></strong>, les spécialisations sont :</p> <ul class="list-group" id="filieres"> <li class="list-group-item">- Génie logiciel</li> <li class="list-group-item">- Réseaux et mobilité</li> <li class="list-group-item">- Méthodes informatiques appliquées à la gestion des entreprises (MIAGE)</li> </ul> <h3 class="bg-success well-sm">Filières organisées</h3> <div class="panel panel-default"> <div class="panel-heading"> <strong>1. La filière Génie logiciel Systèmes informatiques</strong> </div> <div class="panel-body"> <p> L’Ingénieur <em>Logiciel</em> ou l’Ingénieur <em>Système</em> a les compétences ci-après :<br/> - Concepteur et développeur de n’importe quelle application<br /> - Administrateur des bases de données </p> <p> L’Ingénieur <em>Logiciel</em> ou l’Ingénieur <em>Système</em> doit pouvoir être capable de :<br/> réaliser l’analyse et la conception d’un système d’informations ; concevoir et modéliser un logiciel ; développer un logiciel dans un langage approprié ; exploiter une base de données, quel que soit le système de gestion de celle-ci ; maîtriser différents langages de programmation afin de choisir celui qui est le plus approprié ; utiliser des technologies et outils récents, en programmation et modélisation ; gérer un projet informatique, notamment du point de vue de l’organisation. </p> </div> </div> <div class="panel panel-default"> <div class="panel-heading"> <strong>2. La filière Génie logiciel Gestion informatique</strong> </div> <div class="panel-body"> <p> L’Ingénieur <em>Logiciel spécialisé dans la Gestion</em> a les compétences ci-après :<br/> - Analyste programmeur<br /> - Manager des systèmes d’informations de gestion </p> <p> L’Ingénieur <em>Logiciel spécialisé dans la Gestion</em> participe à la conception et au développement de logiciels de gestion. Il doit être capable de :<br/> développer un logiciel de gestion dans tout domaine de la gestion (comptabilité, gestion des stocks, gestion des ressources humaines, etc.) ; utiliser des outils avancés dans la conception de logiciels de gestion ; exploiter un progiciel de gestion intégré ; conseiller sur l’emploi de logiciels de gestion. </p> </div> </div> <div class="panel panel-default"> <div class="panel-heading"> <strong>3. La filière Réseaux et Administration système</strong> </div> <div class="panel-body"> <p> L’ingénieur <em>Administrateur Systèmes et Réseaux</em> assure le bon fonctionnement technique du système informatique d’une entreprise par le conseil, la mise en place du nouveau matériel, la sécurité informatique et l’administration quotidienne du réseau. </p> <p> L’ingénieur <em>Administrateur Systèmes et Réseaux</em> est capable de : <br/> administrer des systèmes informatiques ; gérer le parc informatique d’une entreprise, allant de quelques équipements à plusieurs centaines ; administrer des serveurs, notamment de bases de données ; assurer la maintenance préventive, corrective et évolutive des équipements informatiques. </p> </div> </div> <div class="panel panel-default"> <div class="panel-heading"> <strong>4. La filière Réseaux et Télécommunications</strong> </div> <div class="panel-body"> <p> L’Ingénieur <em>Télécoms et Réseaux</em> a une connaissance des différents moyens de Télécommunications. Il intervient sur les différents équipements d’infrastructures et les terminaux des réseaux voix et données. </p> <p> L’Ingénieur <em>Télécoms et Réseaux</em> est capable de : <br/> comprendre le fonctionnement des réseaux téléphoniques analogiques et numériques ; administrer des réseaux de téléphonie mobiles de toutes générations (GSM, GPRS, EDGE, UMTS…) ; concevoir et maintenir des réseaux informatiques, ainsi que des réseaux Voix sur IP ; comprendre et mettre en place des communications satellitaires ; maintenir et dépanner des réseaux (téléphonique & informatique). </p> </div> </div> <div class="panel panel-default"> <div class="panel-heading"> <strong>5. La filière Design et Multimédia</strong> </div> <div class="panel-body"> <p> L’Ingénieur en <em>Design et Multimédia</em> est concepteur dans les domaines suivants: <br/> - infographie (création et traitement d’image, animation et graphisme),<br /> - Publicité et marketing,<br /> - maîtrise du multimédias (vidéo, audio, effet spéciaux),<br /> - web design (interface graphique et administration de site),<br /> - création d’identité visuelle et d'entreprise de service en création graphique. </p> <p> L’Ingénieur en <em>Design et Multimédia</em> est capable de :<br/> faire de la création d’image en s’adaptant à la demande ; concevoir un site web et le développer ; se servir des outils informatiques à sa disposition (création/animation 2D et 3D) ; Réalisation et traitement vidéo et audio ; créer des éléments interactifs (présentation d’entreprise, projet, logiciel) offrir un support visuel à un projet environnemental, de construction ou d’aménagement intérieur/extérieur (maquette et modélisation 3D). </p> </div> </div> 
+    </main>
+    <footer> <div class="container-fluid"> <div class="row" id="bloc-info-plus"> <div class="col-xs-12 col-md-4"> <h3 class="titre-pied">COORDONNEES</h3> <p> République Démocratique du Congo (RDC)<br /> <span class="glyphicon glyphicon-earphone"></span> +(243) 82 226 74 72<br /> <a href="mailto:info@esisalama.org"> <span class="glyphicon glyphicon-envelope"></span> info@esisalama.org </a> </p> </div> <div class="col-xs-12 col-md-4"> <h3 class="titre-pied">QUELQUES LIENS UTILES</h3> <p><a href="index.php?module=horaire" >Horaires des cours</a></p> <!--<p><a href="index.php?module=calendrier" >Calendrier académique</a></p>--> <p><a href="actualite.html" >Voir actualités</a></p> </div> <div class="col-xs-12 col-md-4"> <h3 class="titre-pied">RESTONS CONNECTES</h3> <p> <a href="https://www.google.com" target="_blank"> <img src="assets/img/11.jfif" width="50px" alt="logo GooglePlus" /> </a> <a href="https://www.facebook.com/EsisOfficiel" target="_blank"> <img src="assets/img/th.jfif" width="50px" alt="logo Facebook" /> </a> <a href="https://www.youtube.com/channel/UCtDV8isvHNC0fli1FjYB-Xw" target="_blank"> <img src="assets/img/12.jfif" width="100px" alt="logo Youtube" /> </a> </p> </div> </div> </div> <div class="container" id="bloc-copyright"> <div class="row"> <div class="col-xs-12"> Copyright &copy; ESISALAMA 2022 </div> </div> </div> </footer>
+     <style >
+         footer{
+            background-color: #004058;
+            color: white;
+            margin-bottom: 30px;
+         }
+         div#bloc-copyright div{
+            background-color: #2682C4;
+            
+                    }
+
+     </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <script>
+        $(".sidebar ul li").on('click',function(){
+            $(".sidebar ul li.active").removeClass('active');
+            $(this).addClass('.active'); 
+           
+        })
+            $('.open-btn').on('click',function(){
+                $('.sidebar').addClass('active')
+            });
+            $('.close-btn').on('click',function(){
+                $('.sidebar').removeClass('active')
+
+            });
+    </script>
+    <style >
+        div#apropos-onglets nav ul.nav{
+            display: inline-block;
+        }
+        div#apropos-onglets ul.nav li a{
+            text-decoration:underline;
+            border: 1px dotted black;
+            color: black;
+            font-size: 20px;
+        }
+
+    </style>
+
+    </body>
+</html>
